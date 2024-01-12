@@ -1,0 +1,106 @@
+@media(max-width:1200px){
+}
+@media(max-width:991px){
+    .menu, .nav-icon3 {
+        display: none;
+    }   
+    .my-sidenav {
+        width: 0px;
+        display: block;
+        position: fixed;
+        top: 0;
+        right: 0;
+        overflow-x: hidden;
+        z-index: 999999999;
+        height: 100vh;
+        max-width: 0px;
+        width: 100%;
+        background-color:#003974;
+        transition: 0.5s;
+        -webkit-transition: 0.5s;
+    }
+    .my-sidenav>ul {
+        padding: 0px 20px 0px;
+    }
+    .my-sidenav>ul>li>ul {
+        margin-top: 0px;
+        display: none;
+    }
+    .my-sidenav ul.submenu li ul.submenu {
+        display: none;
+        position: static;
+        width: 100%;
+    }
+    .my-sidenav ul {
+        list-style-type: none;
+        padding-left: 15px;
+    }
+    .my-sidenav ul li
+    {
+        border-bottom: 1px solid #ffffff;
+        padding: 15px 0px;
+    }
+    .my-sidenav > ul > li > ul >li
+    {
+        border-bottom: 1px solid #ffffff;
+        padding: 10px 0px;
+    }
+    .my-sidenav > ul > li > ul >li:last-child, .my-sidenav ul.submenu li ul.submenu li:last-child
+    {
+        border-bottom: 0px;
+    }
+    .my-sidenav ul.submenu li ul.submenu li {
+        border-bottom: 1px solid #ffffff;
+        padding: 10px 10px;
+    }
+    .my-sidenav ul.submenu li ul.submenu li a {
+        color: #ffffff;
+        font-size: 16px;
+    }
+
+    .cross-btn1 {
+        text-align: right;
+        padding: 16px 14px 0px 0px;
+        color: #fff;
+        font-size: 35px;
+        cursor: pointer;
+    }
+    .my-sidenav .submenu-indicator-minus .submenu-indicator {
+        -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+    .my-sidenav .submenu-indicator {
+        font-size: 30px;
+        position: absolute;
+        line-height: 25px;
+        right: 15px;
+    }
+    .my-sidenav>ul>li>a {
+        color: #ffffff;
+        font-size:18px;
+        display:block;
+    }
+    .my-sidenav>ul>li>ul>li>a {
+        color: #ffffff;
+        font-size: 14px;
+    }
+    .my-sidenav>ul>li>ul>li>a img {
+        padding-right: 0;
+        float: right;
+        padding-left: 50px;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+}
+@media (max-width: 420px){
+
+}
+@media (max-width: 380px){
+
+}

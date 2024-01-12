@@ -1,0 +1,172 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Mulish', sans-serif;
+  color: #464545;
+}
+h1,
+h2,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none !important;
+    font-size: 16px;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.my-sidenav {
+    display: none;
+}
+/*-----------Header Css End-------------*/
+.insidePage{
+    padding: 65px 0px;
+    width: 100%;
+}
+.insidePage h2 {
+  font-weight: 900;
+  font-size: 35px;
+  color: #004a80;
+  margin-bottom: 15px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+.insidePage h3{
+    color: #b02b2e;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+.insidePage h4{
+    color: #b02b2e;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+.insidePage p.highlightedTxt {
+  color: #004a80;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.insidePage p {
+  font-weight: 500;
+  padding-bottom: 25px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #464545;
+}
+.fullImg{
+    margin-bottom: 25px;
+}
+.blueBgList ol {
+  padding-left: 15px;
+  margin: 0px;
+}
+
+.blueBgList {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(0,74,127,1) 1%, rgba(145,55,64,1) 82%, rgba(184,84,88,1) 99%, rgba(255,255,255,1) 99%);
+  padding: 30px;
+  border-radius: 12px;
+  margin-bottom: 25px;
+}
+.blueBgList ol li {
+  font-size: 16px;
+  margin-bottom: 12px;
+  color: #fff;
+}
+.blueBgList ol li span {
+  font-weight: 700;
+  display: block;
+}
+.indBosex img{
+    width: 44px;
+    margin-top: 15px;
+}
+
+.fourBoxes {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 25px;
+}
+.indBosex {
+  width: 25%;
+}
+.indBosex h4 {
+  font-size: 18px;
+  margin-top: 10px;
+  color: #004a80;
+  font-weight: 800;
+}
+.indBosex ul {
+  padding-top: ;
+  padding-left: 15px;
+  margin: 0px;
+}
+.indBosex ul li {
+  margin: 7px auto;
+  font-size: 16px;
+}
+.indBosex ul li::marker {
+  color: #f07d21;
+}
+.triImg img{
+    display: block;
+    margin: 0px auto;
+    margin-bottom: 25px;
+    max-width: 780px;
+    width: 100%;
+}
+.single img{
+    display: block;
+    margin: 0px auto;
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+.amibOx {
+  display: flex;
+  gap: 45px;
+  justify-content: space-between;
+}
+.amiIn img {
+  width: 50px;
+  margin-bottom: 10px;
+}
+.amiIn p span {
+  font-weight: 700;
+}
+.endImg img{
+
+}
+.amiIn {
+  width: 33.33%;
+}
+.rightOl li {
+  display: flex;
+  gap: 5px;
+}
